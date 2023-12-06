@@ -502,6 +502,12 @@ section {
   color: #54595b;
   font-family: "Figtree", sans-serif;
 }
+.about .content h4 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #54595b;
+  font-family: "Figtree", sans-serif;
+}
 
 .about .content ul {
   list-style: none;
@@ -540,24 +546,32 @@ section {
 
 .features {
   padding-bottom: 40px;
+ 
 }
+.img-fluid {
+  width: 70%;
+  border-radius: 25px;
+}
+
 .features. p {
   font-family: "Figtree", sans-serif;
   
 }
 .features .nav-tabs {
   border: 0;
+ 
 }
 
 .features .nav-link {
-  border: 0;
   padding: 20px;
+  margin-bottom: 10px;
   transition: 0.3s;
   color: #364146;
   transition: 0.3s ease-in-out;
-  border-radius: 0;
-  border-left: 4px solid #fafbfb;
+  border-radius: 10px;
   font-family: "Figtree", sans-serif;
+  border-color: #323232;
+  border-style:inset;
 }
 
 .features .nav-link h4 {
@@ -570,12 +584,15 @@ section {
 
 .features .nav-link p {
   font-size: 16px;
+  border-width: 1px;
   margin-bottom: 0;
   font-family: "Figtree", sans-serif;
 }
 
 .features .nav-link:hover {
-  background: #fafbfb;
+  background: rgb(61 218 190 /.1);
+  border-style: none;
+  
 }
 
 .features .nav-link:hover h4 {
@@ -583,7 +600,7 @@ section {
 }
 
 .features .nav-link.active {
-  border-radius: 0;
+  border-radius: 10px;
   border: 0;
   border-left: 4px solid rgb(61,218,190);
   background:rgb(61 218 190 /.1);
@@ -598,8 +615,7 @@ section {
 }
 
 .features .tab-content {
-border-radius: 5px;
-  text-align: center;
+text-align: center;
   
 }
 
