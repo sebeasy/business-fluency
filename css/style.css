@@ -20,7 +20,7 @@ p {
 }
 
 a {
-  color: #009cea;
+  color: #343F71;
   text-decoration: none;
 }
 
@@ -49,7 +49,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #009cea;
+  background: #343F71;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -91,7 +91,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background-color:#3ddabe;
+  background-color:#FBC40E;
   font-family: "Figtree", sans-serif;
 }
 
@@ -113,7 +113,7 @@ h6 {
 #header .logo h1 a:hover {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
-  color: #fff;
+  color: #343f71;
 
 }
 
@@ -161,7 +161,7 @@ h6 {
 }
 
 .header-social-links a:hover {
-  color: #009cea;
+  color: #343F71;
 }
 
 /*--------------------------------------------------------------
@@ -210,7 +210,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #009cea;
+  color: #343F71;
 }
 
 .navbar .dropdown ul {
@@ -245,7 +245,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #009cea;
+  color: #343F71;
 }
 
 .navbar .dropdown:hover>ul {
@@ -344,7 +344,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #009cea;
+  color: #343F71;
 }
 
 .navbar-mobile .getstarted,
@@ -379,7 +379,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #009cea;
+  color: #343F71;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -392,7 +392,7 @@ h6 {
 #hero {
   width: 100%;
   background-image: url("../img/ero-bg.png");
-  background-color: #3ddabe;
+  background-color: #fbc40e;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
@@ -468,7 +468,7 @@ section {
 }
 
 .section-bg {
-  background-color: rgb(61 218 190 /.1);
+  background-color: rgb(251 196 14 / 0.3);
 }
 
 .section-title {
@@ -482,7 +482,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 0;
   font-family: "Figtree", sans-serif;
-  color: #627680;
+  color: #343F71;
 }
 
 .section-title p {
@@ -559,7 +559,7 @@ section {
 
 .inspire h1 {
   text-align: center;
-  font-size: 74px;
+  font-size: 70px;
   margin-top: 60px;
 }
 /*--------------------------------------------------------------
@@ -588,11 +588,11 @@ section {
   padding: 20px;
   margin-bottom: 10px;
   transition: 0.3s;
-  color: #364146;
+  color: #212324;
   transition: 0.3s ease-in-out;
   border-radius: 10px;
   font-family: "Figtree", sans-serif;
-  border-color: #323232;
+  border-color: rgb(251 196 14);
   border-style:inset;
 }
 
@@ -600,7 +600,7 @@ section {
   font-size: 16px;
   font-weight: 600;
   transition: 0.3s ease-in-out;
-  color: #576971;
+  color: #212324;
   font-family: "Figtree", sans-serif;
 }
 
@@ -612,7 +612,7 @@ section {
 }
 
 .features .nav-link:hover {
-  background: rgb(61 218 190 /.1);
+  background:rgb(251 196 14 /.3);
   border-style: none;
   
 }
@@ -624,8 +624,7 @@ section {
 .features .nav-link.active {
   border-radius: 10px;
   border: 0;
-  border-left: 4px solid rgb(61,218,190);
-  background:rgb(61 218 190 /.1);
+  background:rgb(251 196 14 /.6);
 }
 
 .features .nav-link.active h4 {
@@ -755,7 +754,7 @@ text-align: center;
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #009cea;
+  color: #343F71;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -817,7 +816,7 @@ text-align: center;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #009cea;
+  color: #343F71;
   margin: 0 2px;
   font-size: 24px;
   display: inline-block;
@@ -830,7 +829,7 @@ text-align: center;
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
-  background: #009cea;
+  background: #343F71;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -872,11 +871,11 @@ text-align: center;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #009cea;
+  border: 1px solid #343F71;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #009cea;
+  background-color: #343F71;
 }
 
 .portfolio-details .portfolio-info {
@@ -920,7 +919,7 @@ text-align: center;
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/cta-bg.jpg") center center;
+  background:rgb(251 196 14 /.3);
   background-size: cover;
   padding: 80px 0;
 }
@@ -932,7 +931,7 @@ text-align: center;
 }
 
 .cta p {
-  color: #576971;
+  color: darkgrey;
 }
 
 .cta .cta-btn {
@@ -946,11 +945,11 @@ text-align: center;
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #009cea;
+  background: #ff0028;
 }
 
 .cta .cta-btn:hover {
-  background: #008bd1;
+  background: rgb(243 76 25)
 }
 
 @media (min-width: 1024px) {
@@ -998,7 +997,7 @@ text-align: center;
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #999;
+  color: #555;
   margin: 0 0 0 45px;
 }
 
@@ -1042,11 +1041,11 @@ text-align: center;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #009cea;
+  border: 1px solid #343F71;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #009cea;
+  background-color: #343F71;
 }
 
 /*--------------------------------------------------------------
@@ -1139,7 +1138,7 @@ text-align: center;
 }
 
 .team .member .social a:hover {
-  color: #009cea;
+  color: ##343F71;
 }
 
 .team .member .social i {
@@ -1205,12 +1204,12 @@ text-align: center;
   padding: 20px 15px;
   font-size: 18px;
   font-weight: 400;
-  color: #777777;
+  color: #555;
 }
 
 .pricing h4 {
-  font-size: 36px;
-  color: #009cea;
+  
+  color: #343F71;
   font-weight: 600;
   font-family: "PFigtree", sans-serif;
   margin-bottom: 20px;
@@ -1223,7 +1222,7 @@ text-align: center;
 }
 
 .pricing h4 span {
-  color: #bababa;
+  color: #555;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1231,7 +1230,7 @@ text-align: center;
 .pricing ul {
   padding: 0;
   list-style: none;
-  color: #444444;
+  color: #555;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1242,7 +1241,7 @@ text-align: center;
 }
 
 .pricing ul i {
-  color: #009cea;
+  color: #343F71;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -1258,7 +1257,7 @@ text-align: center;
 }
 
 .pricing .btn-buy {
-  background: #009cea;
+  background: #343F71;
   display: inline-block;
   padding: 8px 30px;
   border-radius: 4px;
@@ -1270,8 +1269,8 @@ text-align: center;
 }
 
 .pricing .featured {
-  background: #009cea;
-  border-color: #009cea;
+  background: #343F71;
+  border-color: #343F71;
 }
 
 .pricing .featured h3,
@@ -1284,7 +1283,7 @@ text-align: center;
 
 .pricing .featured .btn-buy {
   background: #fff;
-  color: #009cea;
+  color: #343F71;
 }
 
 .pricing .advanced {
@@ -1296,7 +1295,7 @@ text-align: center;
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #009cea;
+  background: #343F71;
   color: #fff;
 }
 
@@ -1321,13 +1320,13 @@ text-align: center;
 .faq .faq-list .question {
   display: block;
   position: relative;
-  font-family: #009cea;
+  font-family: #343F71;
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
   padding-left: 25px;
   cursor: pointer;
-  color: #007ab7;
+  color:#343F71;
   transition: 0.3s;
 }
 
@@ -1352,7 +1351,7 @@ text-align: center;
 }
 
 .faq .faq-list .collapsed:hover {
-  color: #009cea;
+  color: #343F71;
 }
 
 .faq .faq-list .collapsed .icon-show {
@@ -1378,7 +1377,7 @@ text-align: center;
 
 .contact .info i {
   font-size: 20px;
-  color: #009cea;
+  color: #343F71;
   float: left;
   width: 44px;
   height: 44px;
@@ -1425,14 +1424,14 @@ text-align: center;
 }
 
 .contact .info .social-links a:hover {
-  background: #009cea;
+  background: #343F71;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #009cea;
+  background: #343F71;
   color: #fff;
 }
 
@@ -1505,7 +1504,7 @@ text-align: center;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #009cea;
+  background: #343F71;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1514,7 +1513,7 @@ text-align: center;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #1eb4ff;
+  background: #343F71;
 }
 
 @keyframes animate-loading {
@@ -1615,7 +1614,7 @@ text-align: center;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #009cea;
+  background: #343F71;
   color: #fff;
   text-decoration: none;
 }
@@ -1640,7 +1639,7 @@ text-align: center;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #009cea;
+  color: #343F71;
   font-size: 18px;
   line-height: 1;
   margin-left: -5px;
@@ -1664,7 +1663,7 @@ text-align: center;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #009cea;
+  color: #343F71;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1691,7 +1690,7 @@ text-align: center;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #009cea;
+  background: #343F71;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
