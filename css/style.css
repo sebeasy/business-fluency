@@ -400,7 +400,7 @@ h6 {
   background-position: right top;
   margin-top: 0px;
   padding: 70px 0;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 }
 
@@ -414,6 +414,16 @@ h6 {
   margin-top: 50px;
   padding: 70px 0;
   margin-bottom: 100px;
+}
+
+@media (min-width: 840px) {
+#hero h1 {
+  margin: 0 0 20px 0;
+  font-family: "Figtree", sans-serif;
+  font-size: 50px;
+  line-height: 56px;
+  color: white;
+}
 }
 
 #hero h1 {
@@ -463,9 +473,9 @@ h6 {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 840px) {
   #hero h1 {
-    font-size: 32px;
+    font-size: 25px;
     line-height: 40px;
   }
 
