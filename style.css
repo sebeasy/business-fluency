@@ -135,6 +135,7 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  color: #343f71;
 }
 
 /*--------------------------------------------------------------
@@ -518,7 +519,7 @@ section {
 }
 .about .content h4 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: #54595b;
   font-family: "Figtree", sans-serif;
 }
