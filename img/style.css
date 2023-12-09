@@ -122,8 +122,8 @@ h6 {
 #header .logo h1 a:hover {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
-  color: #fff;
-  font-size: 16px;
+  color: #343F71;
+  font-size: 19px;
 
 }
 }
@@ -135,6 +135,7 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  color: #343f71;
 }
 
 /*--------------------------------------------------------------
@@ -389,6 +390,20 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+@media (min-width: 840px) {
+  #hero {
+  width: 100%;
+  background-image: url("../img/ero-bg.png");
+  background-color: #fbc40e;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
+  margin-top: 0px;
+  padding: 70px 0;
+  margin-bottom: 50px;
+}
+}
+
 #hero {
   width: 100%;
   background-image: url("../img/ero-bg.png");
@@ -399,6 +414,16 @@ h6 {
   margin-top: 50px;
   padding: 70px 0;
   margin-bottom: 100px;
+}
+
+@media (min-width: 840px) {
+#hero h1 {
+  margin: 0 0 20px 0;
+  font-family: "Figtree", sans-serif;
+  font-size: 50px;
+  line-height: 56px;
+  color: white;
+}
 }
 
 #hero h1 {
@@ -518,7 +543,7 @@ section {
 }
 .about .content h4 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   color: #54595b;
   font-family: "Figtree", sans-serif;
 }
@@ -925,13 +950,13 @@ text-align: center;
 }
 
 .cta h3 {
-  color: #364146;
+  color: #343F71;
   font-size: 28px;
   font-weight: 700;
 }
 
 .cta p {
-  color: darkgrey;
+  color: #343F71;
 }
 
 .cta .cta-btn {
@@ -1196,7 +1221,8 @@ text-align: center;
   border-radius: 4px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .pricing h3 {
@@ -1371,8 +1397,9 @@ text-align: center;
   padding: 30px;
   background: #fff;
   width: 100%;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
   border-radius: 4px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .contact .info i {
@@ -1439,8 +1466,9 @@ text-align: center;
   width: 100%;
   padding: 30px;
   background: #fff;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
   border-radius: 4px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .contact .php-email-form .form-group {
@@ -1574,8 +1602,8 @@ text-align: center;
 #footer .footer-top {
   background: #fff;
   padding: 60px 0 30px 0;
-  border-top: 2px solid #e9ecee;
-  border-bottom: 2px solid #e9ecee;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 #footer .footer-top .footer-info {
