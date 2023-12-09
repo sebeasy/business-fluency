@@ -123,7 +123,7 @@ h6 {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
   color: #343F71;
-  font-size: 16px;
+  font-size: 19px;
 
 }
 }
@@ -1197,7 +1197,8 @@ text-align: center;
   border-radius: 4px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .pricing h3 {
@@ -1372,8 +1373,9 @@ text-align: center;
   padding: 30px;
   background: #fff;
   width: 100%;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
   border-radius: 4px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .contact .info i {
@@ -1440,8 +1442,9 @@ text-align: center;
   width: 100%;
   padding: 30px;
   background: #fff;
-  border: 2px solid #e9ecee;
+  border: 2px solid #fff;
   border-radius: 4px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
 }
 
 .contact .php-email-form .form-group {
@@ -1575,8 +1578,8 @@ text-align: center;
 #footer .footer-top {
   background: #fff;
   padding: 60px 0 30px 0;
-  border-top: 2px solid #e9ecee;
-  border-bottom: 2px solid #e9ecee;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 
 #footer .footer-top .footer-info {
