@@ -390,16 +390,15 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-@media (min-width: 840px) {
+@media (min-width: 1024px) {
   #hero {
   width: 100%;
-  background-image: url("../img/ero-bg.png");
-  background-color: #fbc40e;
+  background-color: #8d825e;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right top;
-  margin-top: 0px;
-  padding: 35px 0;
+  margin-top: 100px;
+  padding: 5px 0;
   margin-bottom: 10px;
 }
 }
