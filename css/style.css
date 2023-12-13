@@ -390,29 +390,24 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-@media (min-width: 1024px) {
-  #hero {
-  width: 100%;
-  background-color: #8d825e;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
-  margin-top: 100px;
-  padding: 5px 0;
-  margin-bottom: 10px;
-}
-}
+
 
 #hero {
   width: 100%;
-  background-image: url("../img/ero-bg.png");
   background-color: #fbc40e;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right top;
   margin-top: 50px;
   padding: 70px 0;
   margin-bottom: 100px;
+}
+
+@media (min-width: 840px) {
+  #hero {
+  width: 100%;
+  background-color: #8d825e;
+  margin-top: 80px;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
 }
 
 @media (min-width: 840px) {
@@ -421,7 +416,7 @@ h6 {
   font-family: "Figtree", sans-serif;
   font-size: 32px;
   line-height: 56px;
-  color: white;
+  color: #1e1b1b;
 }
 }
 
