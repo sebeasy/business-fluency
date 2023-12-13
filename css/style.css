@@ -394,18 +394,22 @@ h6 {
 
 #hero {
   width: 100%;
+
   background-color: #fbc40e;
   margin-top: 50px;
   padding: 70px 0;
   margin-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top;
 }
 
 @media (max-width: 840px) {
   #hero {
   width: 100%;
-  background-color: #8d825e;
+  background-color: #fbc40e;
   margin-top: 80px;
-  padding: 5px 0;
+  padding: 10px 0;
   margin-bottom: 0px;
 }
 }
