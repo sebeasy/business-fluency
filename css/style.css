@@ -390,11 +390,7 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-@media (max-width: 840px) {
-  #containerh1 {
-    padding: 10px;
-  }
-  }
+
 
 #hero {
   width: 100%;
@@ -423,7 +419,7 @@ h6 {
 
 #hero h1 {
   margin: 0 0 20px 0;
-  font-family: "Figtree", sans-serif;;
+  font-family: "Figtree", sans-serif;
   font-size: 60px;
   line-height: 56px;
   color: white;
@@ -479,8 +475,8 @@ h6 {
 
 @media (max-width: 840px) {
   #hero h1 {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 35px;
   }
 
   #hero h2 {
