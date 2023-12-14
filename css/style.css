@@ -442,11 +442,12 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #DAF7A6;
-  background: #ff0028;
+  background: hwb(17 1% 4%);
+  background-image: linear-gradient(to right, hwb(9 0% 0%) 0%, hsl(4, 54%, 44%) 100%);
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #ff0028;
 }
 
 #hero .hero-img {
@@ -476,7 +477,7 @@ h6 {
 @media (max-width: 840px) {
   #hero h1 {
     font-size: 20px;
-    line-height: 27px;
+    line-height: 24px;
   }
 
   #hero h2 {
@@ -577,7 +578,7 @@ section {
 @media (max-width: 480px) {
 .inspire h1 {
   text-align: left;
-  font-size: 45px;
+  font-size: 42px;
   margin-top: 60px;
 }
 }
@@ -988,6 +989,7 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    font-weight: 500;
   }
 }
 
