@@ -442,8 +442,8 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #DAF7A6;
-  background: hwb(17 1% 4%);
-  background-image: linear-gradient(to right, hwb(9 0% 0%) 0%, hsl(4, 54%, 44%) 100%);
+  background-color:#ff0028;
+  background-image: linear-gradient(to right, hwb(9 0% 0%) 0%, rgb(228, 61, 58) 100%);
 }
 
 #hero .btn-get-started:hover {
@@ -477,11 +477,11 @@ h6 {
 @media (max-width: 840px) {
   #hero h1 {
     font-size: 20px;
-    line-height: 24px;
+    line-height: 25px;
   }
 
   #hero h2 {
-    font-size: 17px;
+    font-size: 18px;
   }
 }
 
