@@ -575,7 +575,7 @@ section {
 /*--------------------------------------------------------------
 # Inspire
 --------------------------------------------------------------*/
-@media (max-width: 480px) {
+@media (max-width: 600px) {
 .inspire h1 {
   text-align: left;
   font-size: 12px;
@@ -585,7 +585,7 @@ section {
 
 .inspire h1 {
   text-align: center;
-  font-size: 68px;
+  font-size: 65px;
   margin-top: 60px;
 }
 /*--------------------------------------------------------------
