@@ -449,7 +449,8 @@ h6 {
   border-color: #fff;
   transition: 0.5s;
   color: #ffffff;
-  background-color:#003651;
+  background-color:#ec0e8b;
+  box-shadow:1px 1px 3px black;
   
 }
 
