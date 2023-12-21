@@ -648,7 +648,7 @@ section {
 }
 
 .features .nav-link:hover {
-  background:rgb(251 196 14 /.2);
+  background: hsl(326 82% 65% /.09);
   border-style: none;
   
 }
