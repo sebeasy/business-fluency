@@ -985,7 +985,7 @@ text-align: center;
 
 .pricing .featured {
   background: hwb(187 11% 20%);
-  border-color: #e82b90;;
+  border-color: #343F71;
 }
 
 .pricing .featured h3,
@@ -1140,14 +1140,14 @@ text-align: center;
 }
 
 .contact .info .social-links a:hover {
-  background: #343F71;
+  background: #e82b90;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #343F71;
+  background: #e82b90;;
   color: #fff;
 }
 
