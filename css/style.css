@@ -1440,18 +1440,30 @@ button:hover{
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: -1px;
-  right: -2px;
-  bottom: -1px;
+  position:cover;
+  padding: 20px 20px;
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
   background: #e82b90;
   color: #fff;
   transition: 0.3s;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
+}
+
+.sub-btn
+{
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background-color:#e82b90;
+  box-shadow:1px 1px 3px rgb(101, 101, 101);
+}
+.sub-btn:hover {
+  background: hsl(326, 82%, 65%);
+  color: #fff;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
