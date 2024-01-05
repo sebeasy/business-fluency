@@ -1124,7 +1124,9 @@ button:hover{
   padding: 6px;
 }
 .gracias {
-  padding-left: 20px;
+  padding-left: 40px;
+  background-color: #fff;
+  color: #000;
 }
 
 .contact .info {
