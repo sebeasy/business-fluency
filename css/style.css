@@ -1123,6 +1123,10 @@ button:hover{
 ::placeholder {
   padding: 6px;
 }
+.gracias {
+  padding-left: 20px;
+}
+
 .contact .info {
   padding: 30px;
   background: #fff;
@@ -1460,10 +1464,18 @@ button:hover{
   color: #fff;
   background-color:#e82b90;
   box-shadow:1px 1px 3px rgb(101, 101, 101);
+  font-family: "Figtree", sans-serif;
 }
+
 .sub-btn:hover {
   background: hsl(326, 82%, 65%);
   color: #fff;
+}
+.gracias{
+  background: hsl(326, 82%, 65%);
+  color: #fff;
+  font-weight: 500;
+  padding: 20px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
