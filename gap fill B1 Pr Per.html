@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Native English Chile</title>
+  <meta content="" name="description" content="curso de inglés">
+  <meta content="" name="keywords" content="cursos de ingles, cursos de inglés, escuela de idiomas, escuela de inglés, capacitación, english training">
+  <meta name="Author" content="Native English Chile">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- Favicons -->
+  <link href="img/ficon.png" rel="icon">
+  <link href="img/ficon.png" rel="f">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro:wght@400;500;700&family=Figtree:wght@300;700&family=Inter:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- gapfill CSS  -->
+     <style>
+    .gap {
+      width: 120px;
+      border: none;
+      border-bottom: 1px solid #333;
+      font-size: 16px;
+      text-align: center;
+      background-color:rgb(231, 235, 238);
+    }
+    .gap:focus {
+      outline: none;
+      
+    }
+    .feedback {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    #checkBtn {
+      background:hsl(0, 80%, 54%);
+      color: white;
+      padding: 8px 30px;
+      
+    }
+  </style>
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Scaffold
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">Native English Chile </a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      
+     <!-- .navbar -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="A1.html">A1</a></li>
+          <li><a href="A2.html">A2</a></li>
+          <li><a href="B1.html">B1</a></li>
+          <li><a href="B2.html">B2</a></li>
+          <li><a href="C1.html">C1</a></li>
+          <li><a href="phrasal verbs.html">Phrasal Verbs</a></li>
+        </ul>
+    </div>
+  </header>
+  <!-- End Header -->
+
+   <!-- ======= About Section ======= -->
+   <section id="gap fill" class="about">
+    <div class="container">
+          <div>
+             
+           <h2>Engish Grammar at B1</h2>
+
+<h4>Present Perfect: Fill in the gap with the verb in the correct tense.</h4>
+<br>
+          </div>
+
+          <body>
+
+ 
+  <div class="exercise">
+
+    <!-- 7 Questions Here -->
+     <br>
+    <div class="question">
+      <p>He <input type="text" class="gap" data-answer="has been" placeholder="(have be)"> busy all day.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>She <input type="text" class="gap" data-answer="has written" placeholder="(have write)"> an letter of complaint.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>They <input type="text" class="gap" data-answer="have not done" placeholder="(have not do)"> the website, yet.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>We <input type="text" class="gap" data-answer="have finished" placeholder="(have finish)"> the report.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>The new monitor <input type="text" class="gap" data-answer="has arrived" placeholder="(have arrive)"> on time.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>I <input type="text" class="gap" data-answer="have spoken" placeholder="(have speak)"> to the suppliers.</p>
+      <p class="feedback"></p>
+    </div>
+<br>
+    <div class="question">
+      <p>Michael <input type="text" class="gap" data-answer="has charged" placeholder="(have charge)"> the customer too much.</p>
+      <p class="feedback"></p>
+    </div>
+
+    <button id="checkAllBtn">Check All Answers</button>
+
+  </div>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const checkButton = document.getElementById('checkAllBtn');
+      const gaps = document.querySelectorAll('.gap');
+
+      checkButton.addEventListener('click', function() {
+        gaps.forEach(function(input) {
+          const userAnswer = input.value.trim().toLowerCase();
+          const correctAnswer = input.dataset.answer.toLowerCase();
+          const feedback = input.parentElement.nextElementSibling;
+
+          if (userAnswer === correctAnswer) {
+            feedback.textContent = "Correct!";
+            feedback.style.color = "green";
+          } else {
+            feedback.textContent = "Try again!";
+            feedback.style.color = "hsl(0, 80%, 54%)";
+          }
+        });
+      });
+    });
+  </script>
+  <script src="js/main.js"></script>
+  
+
+</body>
+
+</html>
