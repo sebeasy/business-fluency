@@ -428,7 +428,7 @@ h6 {
 @media (max-width: 840px) {
   #hero {
     width: 100%;
-    background-color: #343F71;
+    background-color: rgb(238, 240, 241);
     margin-top: 40px;
     padding-top: 50px;
     background-repeat: no-repeat;
