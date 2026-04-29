@@ -36,10 +36,10 @@ function checkAnswers() {
     const percentage = Math.round((correctCount / inputs.length) * 100);
 
     let message = "";
-    if (percentage === 100) message = "🔥 Perfect!";
-    else if (percentage >= 80) message = "👏 Great job!";
-    else if (percentage >= 60) message = "👍 Good effort!";
-    else message = "💡 Try again!";
+    if (percentage === 100) message = " Perfect!";
+    else if (percentage >= 80) message = " Well done!";
+    else if (percentage >= 60) message = " Good effort!";
+    else message = " Try again!";
 
     scoreEl.textContent =
       `Score: ${correctCount} / ${inputs.length} (${percentage}%) — ${message}`;
