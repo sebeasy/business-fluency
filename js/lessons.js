@@ -96,3 +96,14 @@ function toggleVocab(btn) {
 }
 
 console.log("LESSONS JS LOADED");
+function toggleVocab(button) {
+  const column = document.querySelector('.left-column');
+
+  if (column.style.display === "none") {
+    column.style.display = "block";
+    button.textContent = "Hide Vocabulary";
+  } else {
+    column.style.display = "none";
+    button.textContent = "Show Vocabulary";
+  }
+}
