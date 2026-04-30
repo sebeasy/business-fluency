@@ -50,6 +50,7 @@ input.gap:focus {
   border-radius: 6px;
   border: none;
   background-color:hwb(333 13% 11%);
+  box-shadow: #003651;
   color: white;
   cursor: pointer;
 
@@ -77,4 +78,12 @@ body {
 
 header.fixed-top {
   z-index: 9999;
+}
+
+.vocab-list {
+  transition: opacity 0.3s ease;
+}
+
+.vocab-list.hidden {
+  opacity: 0.05;   /* 👈 almost invisible, not gone */
 }
