@@ -81,3 +81,18 @@ function resetAnswers() {
   const firstInput = document.querySelector('.gap');
   if (firstInput) firstInput.focus();
 }
+
+/hide vocabulary/
+function toggleVocab(btn) {
+  const vocab = document.querySelector('.left-column');
+
+  vocab.classList.toggle('hidden');
+
+  if (vocab.classList.contains('hidden')) {
+    btn.textContent = "Show Vocabulary";
+  } else {
+    btn.textContent = "Hide Vocabulary";
+  }
+}
+
+console.log("LESSONS JS LOADED");
