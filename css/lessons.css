@@ -71,7 +71,7 @@ input.gap:focus {
   opacity: 0.15;
   transition: 0.3s;
 }
-.body {
+body {
   padding-top: 100px;
 }
 
