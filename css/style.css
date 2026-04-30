@@ -925,7 +925,7 @@ font-weight: 600;
   margin: 10px;
   color: #fff;
   background-color:hwb(333 13% 11%);
-  box-shadow:0px 0px 0px black;
+  box-shadow:1px 1px 3px black;
 }
 
 .cta .cta-btn:hover {
@@ -1143,12 +1143,14 @@ textarea {
   padding-bottom: 40px;
 }
 button {
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
+   margin-top: 20px;
+  align-self: flex-start;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
   background-color:hwb(333 13% 11%);
+  color: white;
+  cursor: pointer;
   
 }
 
@@ -1521,7 +1523,7 @@ button:hover{
   transition: 0.5s;
   color: #fff;
   background-color:hwb(333 13% 11%);
-
+  box-shadow:1px 1px 3px rgb(101, 101, 101);
   font-family: "Figtree", sans-serif;
 }
 
@@ -1603,9 +1605,13 @@ input.gap:focus {
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
-  background-color: #003651;
+  background-color:hwb(333 13% 11%);
   color: white;
   cursor: pointer;
+
+}
+.left-column button:hover{
+  background-color:  hsl(172, 76%, 45%);
 }
 
 .left-column-wrapper {
@@ -1621,8 +1627,8 @@ input.gap:focus {
   opacity: 0.15;
   transition: 0.3s;
 }
-body {
-  padding-top: 80px;
+.body {
+  padding-top: 100px;
 }
 
 header.fixed-top {
