@@ -59,7 +59,7 @@ h6 {
   background: hwb(333 13% 11%);
   width: 40px;
   height: 40px;
-  border-radius: 0px;
+  border-radius: 4px;
   transition: all 0.4s;
 }
 
@@ -925,7 +925,7 @@ font-weight: 600;
   margin: 10px;
   color: #fff;
   background-color:hwb(333 13% 11%);
- 
+  box-shadow:0px 0px 0px black;
 }
 
 .cta .cta-btn:hover {
@@ -1149,7 +1149,7 @@ button {
   transition: 0.5s;
   color: #fff;
   background-color:hwb(333 13% 11%);
-  box-shadow:1px 1px 3px rgb(101, 101, 101);
+  
 }
 
 button:hover{
@@ -1521,7 +1521,7 @@ button:hover{
   transition: 0.5s;
   color: #fff;
   background-color:hwb(333 13% 11%);
-  box-shadow:1px 1px 3px rgb(101, 101, 101);
+
   font-family: "Figtree", sans-serif;
 }
 
@@ -1552,7 +1552,7 @@ button:hover{
   color: #364146;
 }
 
-//vocabulary exercises//
+/vocabulary exercises//
 
 .container {
   max-width: 1100px;
@@ -1595,16 +1595,17 @@ input.gap {
 input.gap:focus {
   outline: 2px solid #003651;
 }
+
+
 .left-column button {
   margin-top: 20px;
   align-self: flex-start;
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
+  background-color: #003651;
   color: white;
   cursor: pointer;
-  background: hwb(333 13% 11%);
-  border-radius: 4px;
 }
 
 .left-column-wrapper {
@@ -1620,21 +1621,10 @@ input.gap:focus {
   opacity: 0.15;
   transition: 0.3s;
 }
-.left-column {
-  display: flex;
-  flex-direction: column;
+body {
+  padding-top: 80px;
 }
 
-.vocab-list {
-  flex-grow: 1;
-}
-
-.vocab-controls {
-  margin-top: 15px;
-}
-
-/* 🔥 THIS is the key fix */
-.left-column.hidden .vocab-list {
-  opacity: 0.15;
-  transition: 0.3s;
+header.fixed-top {
+  z-index: 9999;
 }
