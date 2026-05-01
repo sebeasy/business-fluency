@@ -72,9 +72,6 @@ input.gap:focus {
   opacity: 0.15;
   transition: 0.3s;
 }
-body {
-  padding-top: 100px;
-}
 
 header.fixed-top {
   z-index: 9999;
@@ -90,6 +87,18 @@ header.fixed-top {
 
 .lesson-page h1 {
   font-size: 20px;
+}
+.lesson-page {
+  padding-top: 100px; /* if needed */
+}
+
+.lesson-page .two-column {
+  display: flex;
+  gap: 30px;
+}
+
+.lesson-page .vocab-list.hidden {
+  opacity: 0.1;
 }
 @media (max-width: 768px) {
   #hero h1 {
