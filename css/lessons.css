@@ -1,15 +1,7 @@
 
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
-.two-column {
-    display: flex !important;
-  gap: 15px; /* smaller gap */
-  align-items: flex-start;
-  
-}
+
+
 @media (max-width: 768px) {
   .two-column {
     flex-direction: column;
@@ -81,20 +73,14 @@ header.fixed-top {
   transition: opacity 0.3s ease;
 }
 
-.vocab-list.hidden {
-  opacity: 0.05;   /* 👈 almost invisible, not gone */
-}
-
-.lesson-page h1 {
-  font-size: 20px;
-}
 .lesson-page {
   padding-top: 100px; /* if needed */
 }
 
 .lesson-page .two-column {
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .lesson-page .vocab-list.hidden {
