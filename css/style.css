@@ -1634,3 +1634,13 @@ input.gap:focus {
 header.fixed-top {
   z-index: 9999;
 }
+
+#hero h1 {
+  font-size: 48px;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 32px !important;
+  }
+}
