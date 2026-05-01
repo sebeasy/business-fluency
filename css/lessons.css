@@ -87,3 +87,12 @@ header.fixed-top {
 .vocab-list.hidden {
   opacity: 0.05;   /* 👈 almost invisible, not gone */
 }
+
+.lesson-page h1 {
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 32px;
+  }
+}
