@@ -1557,8 +1557,6 @@ button:hover{
 /vocabulary exercises//
 /* ===== GENERAL ===== */
 
-
-
 header.fixed-top {
   z-index: 9999;
 }
@@ -1592,5 +1590,24 @@ header.fixed-top {
 @media (max-width: 768px) {
   #lesson-hero h1 {
     font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    padding: 15px 0;
+  }
+
+  #header .logo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    padding: 15px 0;
+  }
+
+  #header .logo {
+    font-size: 20px;
   }
 }
