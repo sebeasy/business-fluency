@@ -1557,10 +1557,7 @@ button:hover{
 /vocabulary exercises//
 /* ===== GENERAL ===== */
 
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-}
+
 
 header.fixed-top {
   z-index: 9999;
