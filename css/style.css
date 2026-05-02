@@ -507,12 +507,18 @@ h6 {
     background-attachment: fixed;
   }
 }
+@media (max-width: 840px) {
+  #hero {
+    padding: 40px 20px;
+  }
+}
+
 
 @media (max-width: 840px) {
   #hero h1 {
     font-size: 16px;
-    line-height: 25px;
-    color: rgb(59, 23, 175);
+    line-height: 15px;
+    color: rgb(63, 206, 50);
      margin-top: 0;
     margin-bottom: 10px;
   }
