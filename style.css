@@ -12,8 +12,13 @@
 body {
   
   color: #252525;
-    
-  
+
+}
+
+@media (max-width: 840px) {
+  body {
+    background: red !important;
+  }
 }
 
 p {
@@ -503,14 +508,17 @@ h6 {
 
 @media (max-width: 840px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 25px;
+    background-color: red;
   }
+  }
+
 
   #hero h2 {
     font-size: 18px;
   }
-}
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -1143,13 +1151,15 @@ textarea {
   padding-bottom: 40px;
 }
 button {
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #fff;
+   margin-top: 20px;
+  align-self: flex-start;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
   background-color:hwb(333 13% 11%);
-  box-shadow:1px 1px 3px rgb(101, 101, 101);
+  color: white;
+  cursor: pointer;
+  
 }
 
 button:hover{
@@ -1550,4 +1560,62 @@ button:hover{
   text-align: center;
   font-size: 13px;
   color: #364146;
+}
+
+/vocabulary exercises//
+/* ===== GENERAL ===== */
+
+header.fixed-top {
+  z-index: 9999;
+}
+
+/* ===== HERO (INDEX PAGE) ===== */
+
+#hero h1 {
+  font-size: 48px;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 32px;
+  }
+}
+
+/* ===== LESSON HERO ===== */
+
+#lesson-hero {
+  padding: 30px 15px 10px; /* 👈 MUCH smaller, fixes gap */
+  text-align: center;
+}
+
+#lesson-hero h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #003651;
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  #lesson-hero h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    padding: 15px 0;
+  }
+
+  #header .logo {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    padding: 15px 0;
+  }
+
+  #header .logo {
+    font-size: 20px;
+  }
 }
