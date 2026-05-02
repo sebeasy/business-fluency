@@ -68,3 +68,6 @@ input.gap:focus {
 header.fixed-top {
   z-index: 9999;
 }
+.navbar-toggler {
+  border: 2px solid red;
+}
