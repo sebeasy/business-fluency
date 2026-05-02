@@ -532,6 +532,15 @@ h6 {
     font-size: 18px;
   }
 
+  @media (max-width: 840px) {
+  #hero img {
+    display: block;
+    margin: 0 auto 8px auto;
+    max-width: 100%;
+  }
+   }
+
+
   #hero {
   
 }
