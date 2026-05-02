@@ -501,16 +501,17 @@ h6 {
   }
 }
 
-@media (max-width: 840px) {
-  #hero h1 {
-    font-size: 12px;
-    line-height: 25px;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 10px !important;
+    background: red;
   }
+}
 
   #hero h2 {
     font-size: 18px;
   }
-}
+
 
 /*--------------------------------------------------------------
 # Sections General
