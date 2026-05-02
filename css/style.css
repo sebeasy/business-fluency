@@ -438,9 +438,10 @@ h6 {
 /* Image on mobile */
 @media (max-width: 991px) {
   #hero .hero-img {
-    margin-bottom: 2rem;           /* ← This is the gap you wanted */
+    margin-bottom: 1.25rem;           /* ← This is the gap you wanted */
   }
 }
+
 
 /* Text column */
 #hero .col-lg-6.pt-5.pt-lg-0 {
