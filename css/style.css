@@ -503,8 +503,8 @@ h6 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 10px !important;
-    background: red;
+    font-size: 22px !important;
+    
   }
 }
 
