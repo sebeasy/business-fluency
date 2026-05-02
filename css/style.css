@@ -1655,6 +1655,17 @@ header.fixed-top {
 
 
 
+
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  #lesson-hero h1 {
+    font-size: 34px;
+  }
+}
+
+
+
 #lesson-hero {
   padding: 80px 20px 40px;
   text-align: center;
@@ -1667,7 +1678,6 @@ header.fixed-top {
   line-height: 1.2;
 }
 
-/* 📱 Mobile */
 @media (max-width: 768px) {
   #lesson-hero h1 {
     font-size: 34px;
