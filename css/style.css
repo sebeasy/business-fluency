@@ -503,7 +503,8 @@ h6 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 22px !important;
+    font-size: 20px !important;
+    background-color: #18d26e;
     
   }
 }
