@@ -501,13 +501,14 @@ h6 {
   }
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 20px !important;
-    background-color: #18d26e;
-    
+@media (max-width: 840px) {
+  #hero h1 {
+    font-size: 20px;
+    line-height: 25px;
+    background-color: red;
   }
-}
+  }
+
 
   #hero h2 {
     font-size: 18px;
