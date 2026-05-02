@@ -68,6 +68,15 @@ input.gap:focus {
 header.fixed-top {
   z-index: 9999;
 }
-.navbar-toggler {
-  border: 2px solid red;
+@media (max-width: 768px) {
+
+  .left-column button {
+    margin-top: 10px;     /* less space above */
+    margin-bottom: 20px;  /* more space below */
+  }
+
+  .vocab-list {
+    margin-bottom: 10px;  /* reduce gap above button */
+  }
+
 }
