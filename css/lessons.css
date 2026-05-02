@@ -14,11 +14,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .lesson-page #hero h1 {
-    font-size: 36px !important;
-  }
-}
 
 .left-column {
   flex: 1;
