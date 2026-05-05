@@ -1599,10 +1599,11 @@ header.fixed-top {
 }
 
 #lesson-hero h1 {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 600;
   color: #003651;
   line-height: 1.2;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
