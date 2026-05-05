@@ -1588,7 +1588,8 @@ header.fixed-top {
 @media (max-width: 768px) {
   #hero h1 {
     font-size: 30px;
-    background-color: palevioletred;
+    background-color: rgb(162, 164, 209);
+    margin-left: 20px;
   }
 }
 
