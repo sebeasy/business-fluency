@@ -130,7 +130,7 @@ h6 {
 #header .logo h1 a:hover {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
-  color:#003651;
+  color:hsl(0, 0%, 100%);
   
   
 
@@ -637,6 +637,7 @@ section {
   text-align: center;
   font-size: 35px;
   margin-top: 60px;
+  font-weight: 700;
 }
 
 
