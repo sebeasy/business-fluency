@@ -5,16 +5,13 @@
   <meta charset="utf-8">
   <title>Fluency for Business</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <!-- Favicons -->
   <link href="img/ffaviconb.PNG" rel="icon">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/lessons.css" rel="stylesheet">
 
   <style>
     h1, h2, h3, h4, h5, h6 {
@@ -24,220 +21,253 @@
   </style>
 </head>
 
+<body class="lesson-page">
+  
+
 
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
+<header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center">
 
-      <div class="logo me-auto">
-        <h1><a href="index.html">Fluency for Business</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li class="dropdown"><a href="#"><span>Nosotros</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="index.html">¿Quienes somos?</a></li>
-              <li><a class="nav-link scrollto" href="inner-page.html">Servicios</a></li>
-              <li><a class="nav-link scrollto" href="index.html">Modalidad</a></li>
-              </li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="index.html">Testimonios</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
-          <li><a class="nav-link scrollto" href="#nivel">Vocabulario</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+    <div class="logo me-auto">
+      <h1><a href="index.html">Fluency for Business</a></h1>
     </div>
-  </header><!-- End Header -->
-    
-   
-<!-- ======= Cta Section ======= -->
- <!----
-<section id="cta" class="cta">
-  <div class="container">
 
-    <div class="row" data-aos="zoom-in">
-      <div class="col-lg-9 text-center text-lg-start">
-        <h3>Contáctenos</h3>
-        <p> Para hablar de sus necesidades específicas. Podemos ir a su oficina, concertar una videoconferencia o una llamada telefónica. </p>
-      </div>
-      <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="#contact">Solicitar Una Cita</a>
-      </div>
-    </div>
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contácto</a></li>
+
+        <!-- New Vocabulary Dropdown -->
+        <li class="dropdown">
+          <a href="vocab.html">
+            <span>Vocabulario</span> 
+            <i class="bi bi-chevron-down"></i>
+          </a>
+          <ul>
+            <li><a class="nav-link" href="business.html">Business</a></li>
+            <li><a class="nav-link" href="finance.html">Finance</a></li>
+            <li><a class="nav-link" href="marketing.html">Marketing</a></li>
+            <li><a class="nav-link" href="phrasal verbs.html">Business Phrasal Verbs</a></li>
+             <li><a class="nav-link" href="phrasal-verbs.html">Business Phrasal Verbs</a></li>
+            <li><a class="nav-link" href="human-resources.html">Human Resources</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
 
   </div>
+</header><!-- End Header -->
+    
+<section id="lesson-hero">
+  <div class="container text-center">
+    <h1>Personal and Business Finance</h1>
+  </div>
 </section>
-<!-- End Cta Section -->
-<button type="button" onclick="checkAnswers()">Check Answers</button>
+<div class="container">
+  
+  <div class="two-column">
 
-<section id="Personal and Business Finance" class="services section-bg"> 
-  <div class="container">
 
-    <div class="section-title" data-aos="fade-up">
-      <h2>Personal and Business Finance</h2>
-    </div>
+  <!-- LEFT COLUMN -->
+  <div class="left-column">
 
-    <div class="two-column">
+    <h3>Vocabulary with Examples</h3><br><br>
 
-      <!-- LEFT: Vocabulary -->
-      <div class="left-column">
-        <h3> Vocabulary with Examples</h3>
-
-        <ul class="vocab-list">
-
+    <ul class="vocab-list">
           <li>
             <p><strong>bill</strong> = a statement showing money you owe</p>
             <p class="example">Example: Our electricity bill was higher than usual last month.</p>
           </li>
+
 
           <li>
             <p><strong>fee</strong> = a fixed price for a service</p>
             <p class="example">Example: The lawyer’s fee was higher than expected.</p>
           </li>
 
+
           <li>
             <p><strong>expenses</strong> = money spent on goods/services</p>
             <p class="example">Example: I use cash for daily expenses.</p>
           </li>
+
 
           <li>
             <p><strong>revenue</strong> = total money earned before costs</p>
             <p class="example">Example: The company’s revenue reached $20 million.</p>
           </li>
 
+
           <li>
             <p><strong>income</strong> = money remaining after costs and taxes</p>
             <p class="example">Example: Their income doubled last year.</p>
           </li>
+
 
           <li>
             <p><strong>funding</strong> = money for a specific purpose</p>
             <p class="example">Example: We received funding for our project.</p>
           </li>
 
+
           <li>
             <p><strong>grant</strong> = funding that does not need to be repaid</p>
             <p class="example">Example: She got a grant to study abroad.</p>
           </li>
+
 
           <li>
             <p><strong>budget</strong> = money available to spend</p>
             <p class="example">Example: Our monthly budget is very tight.</p>
           </li>
 
+
           <li>
             <p><strong>installment</strong> = one of several payments over time</p>
             <p class="example">Example: I paid in instalments.</p>
           </li>
+
 
           <li>
             <p><strong>lump sum</strong> = one single payment</p>
             <p class="example">Example: He chose to pay a lump sum.</p>
           </li>
 
+
           <li>
             <p><strong>mortgage</strong> = a loan to buy property</p>
             <p class="example">Example: We took out a mortgage.</p>
           </li>
+
 
           <li>
             <p><strong>interest rate</strong> = percentage charged on a loan</p>
             <p class="example">Example: The interest rate increased.</p>
           </li>
 
+
           <li>
             <p><strong>cost of living</strong> = cost of basic needs</p>
             <p class="example">Example: The cost of living is rising.</p>
           </li>
+
 
           <li>
             <p><strong>standard of living</strong> = level of wealth/comfort</p>
             <p class="example">Example: The standard of living is high here.</p>
           </li>
 
+
           <li>
             <p><strong>bargain</strong> = something bought at a low price</p>
             <p class="example">Example: That was a great bargain!</p>
           </li>
 
+
           <li>
             <p><strong>rip-off</strong> = something overpriced for its value</p>
             <p class="example">Example: That meal was a rip-off.</p>
           </li>
-
         </ul>
-      </div>
-<br>
-      <!-- RIGHT: Exercises (JUMBLED) -->
-      <div class="right-column">
-        <h3> Test: Fill in the gaps</h3>
+        <br><br>
+    
+    <!-- BUTTON OUTSIDE -->
+<div class="vocab-block">
+  <div class="vocab-list"></div>
+  <button onclick="toggleVocab(this)">Hide Vocabulary</button>
+</div>
+  </div> <!-- ✅ CLOSE LEFT COLUMN -->
+
+
+  <!-- RIGHT COLUMN -->
+  <div class="right-column">
+
+  <h3> Test: Fill in the gaps</h3><br><br>
+
 
         <p>1. The ______ on the loan is 5%.</p>
         <input class="gap" data-answer="interest rate">
 
+
         <p>2. That restaurant was a complete ______.</p>
         <input class="gap" data-answer="rip-off">
+
 
         <p>3. We received ______ for our project.</p>
         <input class="gap" data-answer="funding">
 
+
         <p>4. I need to pay my electricity ______.</p>
         <input class="gap" data-answer="bill">
+
 
         <p>5. The country has a high ______.</p>
         <input class="gap" data-answer="standard of living">
 
+
         <p>6. I paid for the phone in monthly ______.</p>
         <input class="gap" data-answer="installments">
+
 
         <p>7. The consultant charged a high ______.</p>
         <input class="gap" data-answer="fee">
 
+
         <p>8. These shoes were a real ______.</p>
         <input class="gap" data-answer="bargain">
+
 
         <p>9. After taxes, her ______ was quite low.</p>
         <input class="gap" data-answer="income">
 
+
         <p>10. We need to stick to our monthly ______.</p>
         <input class="gap" data-answer="budget">
+
 
         <p>11. The company’s total ______ increased this year.</p>
         <input class="gap" data-answer="revenue">
 
+
         <p>12. Food and rent are basic ______.</p>
         <input class="gap" data-answer="expenses">
+
 
         <p>13. She paid the full amount as a ______.</p>
         <input class="gap" data-answer="lump sum">
 
+
         <p>14. They applied for a ______ to buy a house.</p>
         <input class="gap" data-answer="mortgage">
+
 
         <p>15. He got a ______ to study at university.</p>
         <input class="gap" data-answer="grant">
 
+
         <p>16. The ______ has increased significantly.</p>
         <input class="gap" data-answer="cost of living">
 
-        <br><br>
-        <button type="button" onclick="checkAnswers()">Check Answers</button>
-  <button type="button" onclick="showAnswers()">Show Answers</button>
-  <button type="button" onclick="resetAnswers()">Try Again</button> <br><br>
-  <p id="score"></p> 
-      </div>
 
-    </div>
-  </div>
-</section>
+    <button type="button" onclick="checkAnswers()">Check Answers</button>
+    <button type="button" onclick="showAnswers()">Show Answers</button>
+    <button type="button" onclick="resetAnswers()">Try Again</button>
+     <br>
+    <p id="score"></p>
+
+  </div> <!-- ✅ CLOSE RIGHT COLUMN -->
+
+
+</div> <!-- ✅ CLOSE TWO-COLUMN -->
+</div><!-- CLOSE container-->
+
+
 
     <!-- End Personal and Business Finance Section -->
 
@@ -374,8 +404,8 @@
   <script src="vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-<script src="js/lessons.js"></script>
-
+<script src="js/lessons.js" defer></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
 </body>
-
 </html>
