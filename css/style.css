@@ -95,7 +95,18 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+}
 
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
+}
 #header {
   padding: 8px;
   transition: all 0.5s;
@@ -117,7 +128,7 @@ h6 {
   font-size: 34px;
   margin: 0;
   line-height: 0;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   font-family: "Figtree", sans-serif;
   
@@ -131,7 +142,7 @@ h6 {
 #header .logo h1 a:hover {
   text-decoration: none;
   font-family: "Figtree", sans-serif;
-  color:white;
+  color:rgb(247, 247, 247);
   
   
 
