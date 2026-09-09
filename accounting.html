@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fluency for Business</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Favicons -->
+  <link href="img/ffaviconb.PNG" rel="icon">
+
+  <!-- CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/lessons.css" rel="stylesheet">
+
+  <style>
+    h1, h2, h3, h4, h5, h6 {
+      color: #003651;
+      font-family: "Figtree", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="lesson-page">
+  
+
+
+
+  <!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center">
+  <div class="container d-flex align-items-center">
+
+    <div class="logo me-auto">
+      <h1><a href="index.html">Fluency for Business</a></h1>
+    </div>
+
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <nav id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        <li><a class="nav-link scrollto" href="#contact">Contácto</a></li>
+
+        <!-- New Vocabulary Dropdown -->
+        <li class="dropdown">
+          <a href="vocab.html">
+            <span>Vocabulario</span> 
+            <i class="bi bi-chevron-down"></i>
+          </a>
+          <ul>
+            <li><a class="nav-link" href="business.html">Business</a></li>
+             <li><a class="nav-link" href="finance.html">Finance</a></li>
+            <li><a class="nav-link" href="marketing.html">Marketing</a></li>
+            <li><a class="nav-link" href="phrasal-verbs.html">Business Phrasal Verbs</a></li>
+            <li><a class="nav-link" href="human-resources.html">Human Resources</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+    
+<section id="lesson-hero">
+  <div class="container text-center">
+ <section>
+  <div class="container">
+    <h1>Accounting Vocabulary</h1>
+  </div>
+</section>
+<div class="container">
+  
+  <div class="two-column">
+
+  <!-- LEFT COLUMN -->
+  <div class="left-column">
+
+    <h3>Vocabulary with Examples</h3><br><br>
+
+    <ul class="vocab-list" id="vocab-list">
+
+      <li data-category="accounting">
+        <p><strong>Assets</strong> = valuable resources owned by a company that have economic value</p>
+        <p class="example">Example: The company's assets include cash, equipment, and real estate property.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Liabilities</strong> = financial debts or obligations owed to outside parties</p>
+        <p class="example">Example: Bank loans and unpaid invoices are listed under current liabilities.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Equity</strong> = the remaining value of an asset after deducting total liabilities</p>
+        <p class="example">Example: The founders retained 60% of the company's equity following the investment round.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Accounts Receivable</strong> = money owed to a business by customers for products or services delivered</p>
+        <p class="example">Example: The accounting team followed up on overdue accounts receivable to improve cash flow.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Accounts Payable</strong> = money owed by a business to vendors or suppliers for goods received</p>
+        <p class="example">Example: We must settle our accounts payable before the end of the month to avoid penalty fees.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Depreciation</strong> = the gradual reduction in the financial value of an asset over time</p>
+        <p class="example">Example: The office vehicles lose value each year due to annual depreciation.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Balance Sheet</strong> = a financial statement showing assets, liabilities, and equity at a specific point in time</p>
+        <p class="example">Example: The balance sheet indicates that the firm's total assets match its combined liabilities and equity.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Cash Flow</strong> = the net movement of money coming in and going out of a business</p>
+        <p class="example">Example: Maintaining positive cash flow is essential for meeting daily operational expenses.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Gross Profit</strong> = revenue minus the direct cost of goods sold before deducting general expenses</p>
+        <p class="example">Example: Higher material costs led to a slight reduction in our gross profit margin.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Net Income</strong> = total earnings left over after subtracting all operating expenses, interest, and taxes</p>
+        <p class="example">Example: The annual financial report showed a significant increase in net income.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Audit</strong> = an official examination of an organization's financial records and statements</p>
+        <p class="example">Example: External accountants were hired to conduct a thorough financial audit.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>General Ledger</strong> = the primary record used to track all financial transactions of a company</p>
+        <p class="example">Example: Every purchase and sales transaction is recorded chronologically in the general ledger.</p>
+      </li>
+
+    </ul>
+    
+    <!-- BUTTON OUTSIDE -->
+    <div class="vocab-block">
+      <div class="vocab-list"></div>
+      <button onclick="toggleVocab(this)">Hide Vocabulary</button>
+    </div>
+  </div> <!-- ✅ CLOSE LEFT COLUMN -->
+
+  <!-- RIGHT COLUMN -->
+  <div class="right-column">
+
+    <h3>Test: Fill in the gaps</h3><br><br>
+
+    <p>1. Unpaid invoices from clients are recorded as ______ on the financial record.</p>
+    <input class="gap" data-answer="accounts receivable">
+
+    <p>2. The quarterly ______ showed that revenue was high, but operating costs reduced total profitability.</p>
+    <input class="gap" data-answer="balance sheet">
+
+    <p>3. After deducting all operating costs and taxes from our revenue, we determined our final ______.</p>
+    <input class="gap" data-answer="net income">
+
+    <p>4. The company bought heavy machinery, which is considered a fixed ______ on the balance statement.</p>
+    <input class="gap" data-answer="asset">
+
+    <p>5. Outstanding loans and debts to suppliers represent the company's major ______.</p>
+    <input class="gap" data-answer="liabilities">
+
+    <p>6. The accounting firm was brought in to conduct an independent financial ______.</p>
+    <input class="gap" data-answer="audit">
+
+    <p>7. We calculate the ______ of our equipment each year to account for wear and tear.</p>
+    <input class="gap" data-answer="depreciation">
+
+    <p>8. All daily sales transactions are logged directly into the company's ______.</p>
+    <input class="gap" data-answer="general ledger">
+
+    <p>9. The business had trouble paying its short-term bills due to poor ______. </p>
+    <input class="gap" data-answer="cash flow">
+
+    <p>10. We must pay our vendors promptly to keep our ______ up to date.</p>
+    <input class="gap" data-answer="accounts payable">
+
+    <p>11. Deducting the cost of goods sold from sales revenue leaves us with the company's ______.</p>
+    <input class="gap" data-answer="gross profit">
+
+    <p>12. Shareholder ______ increased significantly after the profitable second quarter.</p>
+    <input class="gap" data-answer="equity">
+
+    <button type="button" onclick="checkAnswers()">Check Answers</button>
+    <button type="button" onclick="showAnswers()">Show Answers</button>
+    <button type="button" onclick="resetAnswers()">Try Again</button>
+    <br>
+    <p id="score"></p>
+  </div> <!-- ✅ CLOSE RIGHT COLUMN -->
+
+</div> <!-- ✅ CLOSE TWO-COLUMN -->
+</div><!-- CLOSE container-->
+
+
+
+
+    <!-- End Personal and Business Finance Section -->
+
+    </section><!-- End Team Section -->
+
+  
+
+   <!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Contactenos</h2>
+        </div>
+
+        <div class="row">
+ <!-- ======= Map could go here ======= -->
+          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+               <h4>Dirección:</h4>
+                <p><a href="map link goes here"></a>Providencia, Santiago</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:fluency4business.com">info@fluency4business.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Tel / WhatsApp:</h4>
+                <p>+56 9 2743 0283</a></p>
+              </div>
+
+             
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
+
+            <form action="https://formsubmit.co/info@fluency4business.com" method="POST">
+
+              <input placeholder="Tu nombre completo"type="text" name="name" required>
+              <input placeholder="Tu e-mail" type="email" name="email" required>
+              <textarea placeholder="Tu mensaje" type="message" name="message"></textarea>
+              <input type="hidden" name="_next" value="https://fluency4business.com/gracias.html">
+              <button type="submit">Enviar</button>
+         </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+
+  
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3></h3>
+              <p>
+                <strong>Dirección:</strong>Providencia, Santiago <br>
+                <strong>Fono:</strong> +56 9 2743 0283 <br>
+                <strong>Email:</strong><a href="mailto:info@fluency4business.com"> info@fluency4business.com</a><br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Enlaces Utiles</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Nosotros</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Nuestros Servicios</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clases Presenciales</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clases en Remoto</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Business English</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clases One to One</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Clases en grupos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Suscríbate a nuestro boletín y reciba todas nuestras novedades.</p>
+              <a class="sub-btn" href="#contact">Suscríbate</a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+ 
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+<script src="js/lessons.js" defer></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
