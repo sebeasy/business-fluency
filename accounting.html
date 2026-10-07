@@ -26,44 +26,75 @@
 
 
 
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
 <header id="header" class="fixed-top d-flex align-items-center">
   <div class="container d-flex align-items-center">
-
+    
     <div class="logo me-auto">
       <h1><a href="index.html">Fluency for Business</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
-
-    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
     <nav id="navbar" class="navbar order-last order-lg-0">
       <ul>
         <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+        
+        <li class="dropdown">
+          <a href="#"><span>Nosotros</span> <i class="bi bi-chevron-down"></i></a>
+          <ul>
+            <li><a class="nav-link scrollto" href="#about">¿Quienes somos?</a></li>
+            <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
+            <li><a class="nav-link scrollto" href="#cards">Modalidad</a></li>
+          </ul>
+        </li>
+
+        <li><a class="nav-link scrollto" href="#testimonials">Testimónios</a></li>
         <li><a class="nav-link scrollto" href="#contact">Contácto</a></li>
 
         <!-- New Vocabulary Dropdown -->
         <li class="dropdown">
-          <a href="vocab.html">
-            <span>Vocabulario</span> 
-            <i class="bi bi-chevron-down"></i>
-          </a>
+          <a href="#"><span>Vocabulary &amp; Exercises</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a class="nav-link" href="business.html">Business</a></li>
-             <li><a class="nav-link" href="finance.html">Finance</a></li>
-            <li><a class="nav-link" href="marketing.html">Marketing</a></li>
-            <li><a class="nav-link" href="phrasal-verbs.html">Business Phrasal Verbs</a></li>
-            <li><a class="nav-link" href="human-resources.html">Human Resources</a></li>
-            <li><a class="nav-link" href="accounting.html">Accounting</a></li>
+            <!-- Category 1: By Industry -->
+            <li class="dropdown">
+              <a href="#"><span>By Industry</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+
+                <li><a href="accounting.html">Accounting</a></li>
+                <li><a class="nav-link" href="business.html">Business</a></li>
+                <li><a href="finance.html">Finance &amp; Banking</a></li>
+                <li><a href="marketing.html">Marketing &amp; Sales</a></li>
+                <li><a href="human-resources.html">Human Resources</a></li>
+              </ul>
+            </li>
+
+            <!-- Category 2: By Function -->
+            <li class="dropdown">
+              <a href="#"><span>By Function</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="meetings-presentations.html">Meetings &amp; Presentations</a></li>
+                <li><a href="email.html">Email Writing</a></li>
+              </ul>
+            </li>
+
+            <!-- Category 3: Language & Style -->
+            <li class="dropdown">
+              <a href="#"><span>Language &amp; Style</span> <i class="bi bi-chevron-right"></i></a>
+              <ul>
+                <li><a href="phrasal-verbs.html">Phrasal Verbs</a></li>
+                <li><a href="formal-vs-casual.html">Formal vs. Casual</a></li>
+              </ul>
+            </li>
           </ul>
         </li>
-        
+
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
 
   </div>
 </header><!-- End Header -->
-    
 <section id="lesson-hero">
   <div class="container text-center">
  <section>
@@ -75,6 +106,9 @@
   
   <div class="two-column">
 
+ Here is the updated HTML with all the new vocabulary items from the four accounting sections integrated into the left column (preserving the original structure and styling):
+
+```html
   <!-- LEFT COLUMN -->
   <div class="left-column">
 
@@ -109,12 +143,47 @@
 
       <li data-category="accounting">
         <p><strong>Depreciation</strong> = the gradual reduction in the financial value of an asset over time</p>
-        <p class="example">Example: The office vehicles lose value each year due to annual depreciation.</p>
+        <p class="example">Example: Machinery and office equipment are subject to annual depreciation.</p>
       </li>
 
       <li data-category="accounting">
         <p><strong>Balance Sheet</strong> = a financial statement showing assets, liabilities, and equity at a specific point in time</p>
-        <p class="example">Example: The balance sheet indicates that the firm's total assets match its combined liabilities and equity.</p>
+        <p class="example">Example: Please review the balance sheet before the quarterly review meeting.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Income Statement / Profit & Loss (P&L)</strong> = a report showing a company’s revenues and expenses over a period</p>
+        <p class="example">Example: Our net profit increased significantly compared to last year's income statement.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Cash Flow Statement</strong> = a record of how much cash enters and leaves a business</p>
+        <p class="example">Example: Even though we show a profit, our cash flow statement indicates we are low on liquid funds.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Revenue</strong> = the total amount of income generated by the sale of goods or services</p>
+        <p class="example">Example: The tech sector experienced a major boost in advertising revenue this quarter.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Overhead / Overhead Costs</strong> = ongoing business expenses not directly tied to creating a product or service</p>
+        <p class="example">Example: We need to cut down our administrative overhead to improve profit margins.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Compliance</strong> = the act of obeying rules, regulations, or laws</p>
+        <p class="example">Example: Failure to maintain compliance with local tax laws can result in severe penalties.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Deduction</strong> = an expense that can be subtracted from taxable income to reduce overall tax owed</p>
+        <p class="example">Example: Make sure to log all business travel expenses so we can claim them as deductions.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Fiscal Year</strong> = a 12-month period chosen by a company for tax and accounting purposes</p>
+        <p class="example">Example: Our fiscal year ends on March 31st.</p>
       </li>
 
       <li data-category="accounting">
@@ -134,12 +203,32 @@
 
       <li data-category="accounting">
         <p><strong>Audit</strong> = an official examination of an organization's financial records and statements</p>
-        <p class="example">Example: External accountants were hired to conduct a thorough financial audit.</p>
+        <p class="example">Example: External auditors are visiting our office next week to examine the tax records.</p>
       </li>
 
       <li data-category="accounting">
         <p><strong>General Ledger</strong> = the primary record used to track all financial transactions of a company</p>
-        <p class="example">Example: Every purchase and sales transaction is recorded chronologically in the general ledger.</p>
+        <p class="example">Example: The junior accountant is reconciling the general ledger today.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Reconcile</strong> = to compare financial records to make sure they match</p>
+        <p class="example">Example: Can you reconcile the bank account before closing for the day?</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Allocate</strong> = to officially distribute resources or costs to specific budgets or departments</p>
+        <p class="example">Example: We need to allocate more funds to the marketing department.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Forecast</strong> = to predict future financial trends based on historical data</p>
+        <p class="example">Example: Management asked us to forecast next year's sales growth.</p>
+      </li>
+
+      <li data-category="accounting">
+        <p><strong>Write Off</strong> = to cancel a bad debt or record an asset as a loss</p>
+        <p class="example">Example: The client went bankrupt, so we had to write off their unpaid invoice.</p>
       </li>
 
     </ul>
@@ -198,6 +287,8 @@
     <br>
     <p id="score"></p>
   </div> <!-- ✅ CLOSE RIGHT COLUMN -->
+
+```
 
 </div> <!-- ✅ CLOSE TWO-COLUMN -->
 </div><!-- CLOSE container-->
