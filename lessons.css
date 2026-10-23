@@ -1,20 +1,19 @@
-
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
+.lesson-page {
+  padding-top: 50px;
 }
-.two-column {
-    display: flex !important;
-  gap: 15px; /* smaller gap */
+
+.lesson-page .two-column {
+  display: flex;
+  gap: 20px;
   align-items: flex-start;
-  
 }
+
 @media (max-width: 768px) {
-  .two-column {
+  .lesson-page .two-column {
     flex-direction: column;
   }
 }
+
 
 .left-column {
   flex: 1;
@@ -22,9 +21,10 @@
 }
 
 .right-column {
-  flex: 1.2; /* slightly wider */
+  flex: 1.2;
   min-width: 0;
 }
+
 input.gap {
   transition: all 0.2s ease;
 }
@@ -38,70 +38,125 @@ input.gap {
   border: 0.5px solid #dc3545;
   background-color: #ffe6e6;
 }
+
 input.gap:focus {
   outline: 2px solid #003651;
 }
 
-
 .left-column button {
   margin-top: 20px;
-  align-self: flex-start;
   padding: 8px 14px;
   border-radius: 6px;
   border: none;
-  background-color:hwb(333 13% 11%);
-  box-shadow: #003651;
+  background-color: hwb(333 13% 11%);
   color: white;
   cursor: pointer;
-
-}
-.left-column button:hover{
-  background-color:  hsl(172, 76%, 45%);
 }
 
-.left-column-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.vocab-controls {
-  margin-top: 15px;
-}
-
-.left-column.hidden {
-  opacity: 0.15;
-  transition: 0.3s;
-}
-
-header.fixed-top {
-  z-index: 9999;
+.left-column button:hover {
+  background-color: hsl(172, 76%, 45%);
 }
 
 .vocab-list {
   transition: opacity 0.3s ease;
 }
 
-.vocab-list.hidden {
-  opacity: 0.05;   /* 👈 almost invisible, not gone */
-}
-
-.lesson-page h1 {
-  font-size: 20px;
-}
-.lesson-page {
-  padding-top: 100px; /* if needed */
-}
-
-.lesson-page .two-column {
-  display: flex;
-  gap: 30px;
-}
-
 .lesson-page .vocab-list.hidden {
   opacity: 0.1;
 }
+
+header.fixed-top {
+  z-index: 9999;
+}
 @media (max-width: 768px) {
-  #hero h1 {
-    font-size: 32px;
+
+  .left-column button {
+    margin-top: 10px;     /* less space above */
+    margin-bottom: 50px;  /* more space below */
+  }
+
+  .vocab-list {
+    margin-bottom: 10px;  /* reduce gap above button */
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .vocab-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* perfect spacing */
+  }
+
+}
+
+
+/* 1. Relative positioning on the parent item */
+.dropdown-submenu {
+  position: relative;
+}
+
+/* 2. Absolute positioning for the side menu (hidden by default) */
+.dropdown-submenu > .submenu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%; /* Opens to the right of the current menu item */
+  min-width: 200px;
+  
+  /* Added to round desktop flyout submenus */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* 3. Display the side menu on hover */
+.dropdown-submenu:hover > .submenu {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .navbar .dropdown ul {
+    display: none;
+    padding: 10px 0;
+    margin: 10px 20px;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    
+    /* Added to round mobile dropdown menus */
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .navbar .dropdown ul .dropdown ul {
+    margin: 0 10px;
+    box-shadow: none;
+    border-left: 2px solid #007bff; /* Visual accent for 2nd sub-level */
+    
+    /* Added to round nested mobile submenus */
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .navbar .dropdown ul a {
+    padding: 10px 20px;
+  }
+
+  .navbar .dropdown .dropdown-active > ul {
+    display: block;
   }
 }
+/* Force the back-to-top arrow to display on lesson pages */
+.back-to-top {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.back-to-top {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+
+
+
