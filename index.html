@@ -174,12 +174,56 @@
     line-height: 1.55;
   }
 }
+
+/* A1 header logo: true Figtree lettering (800/400), responsive two-line wordmark.
+   Preserves the existing header, navigation, hero and mobile layout. */
+.brand.brand-a1 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: max-content;
+  max-width: 100%;
+  padding: 2px 0;
+  font-family: 'Figtree', Arial, sans-serif;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  white-space: nowrap;
+}
+.brand-a1 .brand-name {
+  display: block;
+  color: var(--navy);
+  font-size: 39px;
+  font-weight: 800;
+  line-height: .98;
+  letter-spacing: -.041em;
+}
+.brand-a1 .brand-tagline {
+  display: block;
+  margin-top: 0;
+  color: var(--pink);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.07;
+  letter-spacing: -.019em;
+}
+@media (max-width: 860px) {
+  .brand-a1 .brand-name { font-size: 32px; }
+  .brand-a1 .brand-tagline { font-size: 20px; }
+}
+@media (max-width: 600px) {
+  .brand-a1 .brand-name { font-size: 29px; }
+  .brand-a1 .brand-tagline { font-size: 18.5px; }
+}
+
 </style>
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site-header"><div class="container header-inner">
-<a aria-label="Fluency4Business, inicio" class="brand" href="#inicio">Fluency<b>4</b>Business</a>
+<a aria-label="Fluency for Business, inicio" class="brand brand-a1" href="#inicio"><span class="brand-name" aria-hidden="true">Fluency</span><span class="brand-tagline" aria-hidden="true">for Business</span></a>
 <button aria-controls="nav" aria-expanded="false" aria-label="Abrir menú" class="mobile-toggle" id="menu-button" type="button">☰</button>
 <nav aria-label="Navegación principal" class="main-nav" id="nav">
 <a href="#circles">Fluency Circles</a><a href="#programas">Programas</a><a href="#nosotros">Nosotros</a><a href="#testimonios">Testimonios</a><a class="button" href="#contacto">Conversemos</a>
