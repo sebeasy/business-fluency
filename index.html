@@ -218,6 +218,23 @@
   .brand-a1 .brand-tagline { font-size: 18.5px; }
 }
 
+
+/* Contact form: follows the existing Fluency for Business navy, magenta and Figtree styling. */
+.contact-form-panel{align-self:stretch;scroll-margin-top:100px}
+.contact-form-panel h3{color:#fff;margin:0 0 12px;font-size:1.4rem}
+.contact-form-panel>p{font-size:.96rem;margin:0 0 19px;color:#e3eff2}
+.contact-location{font-size:.92rem!important;margin-top:24px;color:#e3eff2!important;line-height:1.7}
+#fluency-contact-form{display:grid;gap:13px}
+.form-field{display:flex;flex-direction:column;gap:6px}
+.form-field label{color:#fff;font-size:.87rem;font-weight:700}
+.form-field input,.form-field select,.form-field textarea{width:100%;min-height:46px;background:#fff;border:2px solid transparent;border-radius:10px;color:#243641;font:inherit;font-size:.98rem;padding:10px 13px}
+.form-field textarea{min-height:125px;resize:vertical}
+.form-field input:focus-visible,.form-field select:focus-visible,.form-field textarea:focus-visible{outline:3px solid #48BDB5;outline-offset:1px}
+.contact-honeypot{display:none!important}
+.form-submit{width:100%;margin-top:5px}
+.form-submit:disabled{opacity:.55;cursor:not-allowed;transform:none}
+.form-note{color:#d2e7ed!important;margin:0!important;font-size:.78rem!important;line-height:1.5}
+@media(max-width:600px){.contact-form-panel{scroll-margin-top:72px}.contact-location{margin-bottom:0}}
 </style>
 </head>
 <body>
@@ -290,8 +307,35 @@
                   I highly recommend him</p><div class="by"><strong>Enrico C</strong><span>Gucci</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Excelente, ejemplos bastante claros, Sebastian despeja mis dudas muy facilmente. Gracias!</p><div class="by"><strong>Lina V</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Great experience. Sebastian helps me a lot to improve my English. Great teacher!</p><div class="by"><strong>Sergio D</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Sebastian is a great professor. We've been working together for several years.
                   He's engaging, patient, always punctual and he talks about many interesting topics.
             I     strongly recommend to attend his lessons.</p><div class="by"><strong>Martina D</strong><span>Gucci</span></div></article><article class="quote"><span class="quote-mark">“</span><p>He is the best teacher, he has a lot of patience with me, but I learn a lot with him</p><div class="by"><strong>Pilar Q</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>I am very grateful to Sebastian because he allowed me to improve my English in a comfortable and professional way. I suggest him to everyone, and I hope to have the possibility for other conversations in the future.</p><div class="by"><strong>Michele</strong><span>OverIT Blended</span></div></article></div></details></div></section>
-<section class="contact" id="contacto"><div class="container contact-grid"><div><div class="eyebrow" style="color:#6ee2d7">Hablemos</div><h2>Tu próximo paso comienza con una conversación.</h2><p>Cuéntame qué necesitas mejorar en inglés, si buscas sesiones individuales, un Fluency Circle o formación para tu equipo. Podemos encontrar un formato adecuado para tus objetivos.</p><div class="cta-row"><a class="button" href="https://wa.me/56927430283?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20los%20programas%20de%20Fluency4Business" rel="noopener noreferrer" target="_blank">Escribir por WhatsApp ↗</a><a class="button button-light" href="#programas">Ver programas</a></div></div>
-<div class="contact-info"><p><strong>Ubicación</strong><br/>Presidente Riesco, sector El Golf<br/>Las Condes, Santiago, Chile</p><p><strong>WhatsApp</strong><br/><a href="https://wa.me/56927430283" rel="noopener noreferrer" target="_blank">+56 9 2743 0283</a></p><p><strong>Consultas</strong><br/>Escríbenos por WhatsApp para consultar sobre los programas.</p><p><strong>Modalidades</strong><br/>Presencial en El Golf · En empresas · Online</p></div></div></section>
+<section class="contact" id="contacto">
+  <div class="container contact-grid">
+    <div>
+      <div class="eyebrow" style="color:#6ee2d7">Hablemos</div>
+      <h2>Tu próximo paso comienza con una conversación.</h2>
+      <p>Cuéntame qué necesitas mejorar en inglés, si buscas sesiones individuales, un Fluency Circle o formación para tu equipo. Podemos encontrar un formato adecuado para tus objetivos.</p>
+      <div class="cta-row">
+        <a class="button" href="https://wa.me/56927430283?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20los%20programas%20de%20Fluency4Business" rel="noopener noreferrer" target="_blank">Escribir por WhatsApp ↗</a>
+        <a class="button button-light" href="#formulario-contacto">Enviar una consulta</a>
+      </div>
+      <p class="contact-location"><strong>Ubicación:</strong> Presidente Riesco, sector El Golf · Las Condes, Santiago, Chile<br/>
+      <strong>Modalidades:</strong> Presencial · En empresas · Online</p>
+    </div>
+    <div class="contact-info contact-form-panel" id="formulario-contacto">
+      <h3>Envíame tu consulta</h3>
+      <p>¿Prefieres escribir por email? Completa este formulario y te responderé a la dirección que indiques.</p>
+      <form id="fluency-contact-form" action="https://formspree.io/f/xljblarn" method="POST" accept-charset="UTF-8">
+        <div class="form-field"><label for="consulta-nombre">Nombre *</label><input id="consulta-nombre" type="text" name="name" autocomplete="name" maxlength="100" required placeholder="Tu nombre"/></div>
+        <div class="form-field"><label for="consulta-email">Correo electrónico *</label><input id="consulta-email" type="email" name="email" autocomplete="email" maxlength="254" required placeholder="tu@empresa.com"/></div>
+        <div class="form-field"><label for="consulta-tipo">¿En qué podemos ayudarte?</label><select id="consulta-tipo" name="tipo_consulta"><option value="Sesiones individuales">Sesiones individuales</option><option value="Fluency Circles">Fluency Circles</option><option value="Programas para empresas">Programas para empresas</option><option value="Otra consulta">Otra consulta</option></select></div>
+        <div class="form-field"><label for="consulta-mensaje">Mensaje *</label><textarea id="consulta-mensaje" name="message" rows="5" maxlength="4000" minlength="10" required placeholder="Cuéntame brevemente lo que necesitas…"></textarea></div>
+        <div class="contact-honeypot" aria-hidden="true"><label for="consulta-control">Deja este campo vacío</label><input id="consulta-control" name="_gotcha" type="text" tabindex="-1" autocomplete="off"/></div>
+        <input type="hidden" name="_subject" value="Nueva consulta desde Fluency for Business"/>
+        <button type="submit" class="button form-submit" id="fluency-form-submit">Enviar mensaje</button>
+        <p id="fluency-form-note" class="form-note" role="status">Los datos enviados se utilizarán para responder a tu consulta. Este formulario utiliza Formspree para recibir los mensajes.</p>
+      </form>
+    </div>
+  </div>
+</section>
 </main><footer class="footer"><div class="container footer-inner"><span>© Fluency4Business · Santiago, Chile</span><span>Inglés profesional para situaciones reales.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
 <script>
 (function(){const toggle=document.getElementById('menu-button'),nav=document.getElementById('nav');toggle.addEventListener('click',function(){const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Abrir menú');}));})();
