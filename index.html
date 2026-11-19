@@ -251,6 +251,12 @@
 .resource-feature p{margin-bottom:0;color:#526877}
 .resource-feature .button{white-space:normal;text-align:center}
 @media(max-width:600px){.resource-feature{padding:48px 0}.resource-feature .button{width:100%}}
+
+/* Second Business English resource — compact companion link, without changing homepage layout. */
+.resource-links{display:flex;flex-direction:column;align-items:flex-start;gap:12px;max-width:330px}
+.resource-secondary-link{color:#003651;font-size:.91rem;font-weight:800;text-decoration:underline;text-underline-offset:4px;line-height:1.4}
+.resource-secondary-link:hover{color:#E32178}
+@media(max-width:600px){.resource-links{width:100%;max-width:none}.resource-secondary-link{width:100%;text-align:center}}
 </style>
 </head>
 <body>
@@ -327,7 +333,7 @@
 <div class="resource-copy"><div class="eyebrow">Business English Tips · Recurso gratuito</div>
 <h2 id="recurso-titulo">¿Necesitas pedir aclaraciones en una reunión en inglés?</h2>
 <p>Aprende cinco expresiones útiles y ponlas en práctica con un ejercicio interactivo. Un recurso breve para comunicarte con más seguridad en el trabajo.</p></div>
-<a class="button" href="pedir-aclaraciones-reuniones-ingles.html">Ver expresiones y practicar →</a>
+<div class="resource-links"><a class="button" href="pedir-aclaraciones-reuniones-ingles.html">Practicar reuniones →</a><a class="resource-secondary-link" href="vocabulario-marketing-ingles.html">Nuevo: vocabulario de marketing en inglés + quiz →</a></div>
 </div></section>
 <section class="contact" id="contacto">
   <div class="container contact-grid">
@@ -358,7 +364,7 @@
     </div>
   </div>
 </section>
-</main><footer class="footer"><div class="container footer-inner"><span>© Fluency4Business · Santiago, Chile</span><span>Inglés profesional para situaciones reales.</span><a href="pedir-aclaraciones-reuniones-ingles.html">Business English Tips</a><a href="#inicio">Volver arriba ↑</a></div></footer>
+</main><footer class="footer"><div class="container footer-inner"><span>© Fluency4Business · Santiago, Chile</span><span>Inglés profesional para situaciones reales.</span><a href="#recursos">Business English Tips</a><a href="#inicio">Volver arriba ↑</a></div></footer>
 <script>
 (function(){const toggle=document.getElementById('menu-button'),nav=document.getElementById('nav');toggle.addEventListener('click',function(){const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Abrir menú');}));})();
 </script>
