@@ -257,6 +257,24 @@
 .resource-secondary-link{color:#003651;font-size:.91rem;font-weight:800;text-decoration:underline;text-underline-offset:4px;line-height:1.4}
 .resource-secondary-link:hover{color:#E32178}
 @media(max-width:600px){.resource-links{width:100%;max-width:none}.resource-secondary-link{width:100%;text-align:center}}
+
+/* Resource library: minimalist two-card preview, appended without changing the original layout. */
+.resource-library-home{background:#f5f8f9;padding:74px 0}
+.resource-library-head{display:flex;align-items:end;justify-content:space-between;gap:26px;margin-bottom:29px}
+.resource-library-intro{max-width:690px}
+.resource-library-intro h2{max-width:670px;margin:12px 0 14px}
+.resource-library-intro p{margin:0;color:#526877;max-width:650px}
+.resource-library-main-button{flex-shrink:0;white-space:normal;text-align:center}
+.resource-library-mini-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.resource-library-mini-card{display:flex;flex-direction:column;align-items:flex-start;gap:9px;background:#fff;border:1px solid #dce7eb;border-radius:19px;padding:26px 28px;transition:box-shadow .2s ease,border-color .2s ease,transform .2s ease}
+.resource-library-mini-card:hover{border-color:#48BDB5;box-shadow:0 16px 28px #00365110;transform:translateY(-2px)}
+.resource-library-mini-card .resource-library-topic{font-size:.72rem;font-weight:900;color:#E32178;letter-spacing:.10em;text-transform:uppercase}
+.resource-library-mini-card strong{font-size:clamp(1.13rem,2.1vw,1.45rem);font-weight:800;line-height:1.24;color:#003651;letter-spacing:-.03em}
+.resource-library-mini-card>span:nth-last-child(2){color:#526877;font-size:.96rem}
+.resource-library-mini-card .resource-library-arrow{font-size:.92rem;font-weight:800;color:#003651;margin-top:8px}
+@media(max-width:1050px) and (min-width:861px){.main-nav{gap:13px;font-size:.84rem}.main-nav .button{padding:9px 13px}}
+@media(max-width:760px){.resource-library-head{flex-direction:column;align-items:stretch}.resource-library-main-button{align-self:flex-start}.resource-library-mini-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.resource-library-home{padding:50px 0}.resource-library-main-button{width:100%}.resource-library-mini-card{padding:23px 21px}.resource-library-head{margin-bottom:22px}}
 </style>
 </head>
 <body>
@@ -265,7 +283,7 @@
 <a aria-label="Fluency for Business, inicio" class="brand brand-a1" href="#inicio"><span class="brand-name" aria-hidden="true">Fluency</span><span class="brand-tagline" aria-hidden="true">for Business</span></a>
 <button aria-controls="nav" aria-expanded="false" aria-label="Abrir menú" class="mobile-toggle" id="menu-button" type="button">☰</button>
 <nav aria-label="Navegación principal" class="main-nav" id="nav">
-<a href="#circles">Fluency Circles</a><a href="#programas">Programas</a><a href="#nosotros">Nosotros</a><a href="#testimonios">Testimonios</a><a class="button" href="#contacto">Conversemos</a>
+<a href="#circles">Fluency Circles</a><a href="#programas">Programas</a><a href="#nosotros">Nosotros</a><a href="#testimonios">Testimonios</a><a href="recursos-business-english.html">Recursos gratis</a><a class="button" href="#contacto">Conversemos</a>
 </nav></div></header>
 <main id="contenido">
 <section class="hero" id="inicio"><div class="container hero-grid"><div>
@@ -329,12 +347,32 @@
                   I highly recommend him</p><div class="by"><strong>Enrico C</strong><span>Gucci</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Excelente, ejemplos bastante claros, Sebastian despeja mis dudas muy facilmente. Gracias!</p><div class="by"><strong>Lina V</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Great experience. Sebastian helps me a lot to improve my English. Great teacher!</p><div class="by"><strong>Sergio D</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>Sebastian is a great professor. We've been working together for several years.
                   He's engaging, patient, always punctual and he talks about many interesting topics.
             I     strongly recommend to attend his lessons.</p><div class="by"><strong>Martina D</strong><span>Gucci</span></div></article><article class="quote"><span class="quote-mark">“</span><p>He is the best teacher, he has a lot of patience with me, but I learn a lot with him</p><div class="by"><strong>Pilar Q</strong><span>Fedrigonni</span></div></article><article class="quote"><span class="quote-mark">“</span><p>I am very grateful to Sebastian because he allowed me to improve my English in a comfortable and professional way. I suggest him to everyone, and I hope to have the possibility for other conversations in the future.</p><div class="by"><strong>Michele</strong><span>OverIT Blended</span></div></article></div></details></div></section>
-<section class="resource-feature" id="recursos" aria-labelledby="recurso-titulo"><div class="container resource-inner">
-<div class="resource-copy"><div class="eyebrow">Business English Tips · Recurso gratuito</div>
-<h2 id="recurso-titulo">¿Necesitas pedir aclaraciones en una reunión en inglés?</h2>
-<p>Aprende cinco expresiones útiles y ponlas en práctica con un ejercicio interactivo. Un recurso breve para comunicarte con más seguridad en el trabajo.</p></div>
-<div class="resource-links"><a class="button" href="pedir-aclaraciones-reuniones-ingles.html">Practicar reuniones →</a><a class="resource-secondary-link" href="vocabulario-marketing-ingles.html">Nuevo: vocabulario de marketing en inglés + quiz →</a></div>
-</div></section>
+<section class="resource-feature resource-library-home" id="recursos" aria-labelledby="recurso-titulo">
+  <div class="container">
+    <div class="resource-library-head">
+      <div class="resource-library-intro">
+        <div class="eyebrow">Business English Tips · Recursos gratuitos</div>
+        <h2 id="recurso-titulo">Un espacio para practicar inglés de verdad.</h2>
+        <p>Expresiones útiles, vocabulario profesional y ejercicios interactivos para situaciones reales de trabajo. A tu ritmo y sin costo.</p>
+      </div>
+      <a class="button resource-library-main-button" href="recursos-business-english.html">Explorar todos los recursos <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="resource-library-mini-grid">
+      <a class="resource-library-mini-card" href="pedir-aclaraciones-reuniones-ingles.html">
+        <span class="resource-library-topic">Reuniones · Comunicación</span>
+        <strong>Cómo pedir aclaraciones en reuniones en inglés</strong>
+        <span>5 expresiones + ejercicio interactivo</span>
+        <span class="resource-library-arrow">Practicar ahora <span aria-hidden="true">→</span></span>
+      </a>
+      <a class="resource-library-mini-card" href="vocabulario-marketing-ingles.html">
+        <span class="resource-library-topic">Marketing · Vocabulario</span>
+        <strong>Vocabulario de marketing en inglés</strong>
+        <span>12 términos + quiz de 10 preguntas</span>
+        <span class="resource-library-arrow">Practicar ahora <span aria-hidden="true">→</span></span>
+      </a>
+    </div>
+  </div>
+</section>
 <section class="contact" id="contacto">
   <div class="container contact-grid">
     <div>
@@ -364,7 +402,7 @@
     </div>
   </div>
 </section>
-</main><footer class="footer"><div class="container footer-inner"><span>© Fluency4Business · Santiago, Chile</span><span>Inglés profesional para situaciones reales.</span><a href="#recursos">Business English Tips</a><a href="#inicio">Volver arriba ↑</a></div></footer>
+</main><footer class="footer"><div class="container footer-inner"><span>© Fluency4Business · Santiago, Chile</span><span>Inglés profesional para situaciones reales.</span><a href="recursos-business-english.html">Recursos gratuitos</a><a href="#inicio">Volver arriba ↑</a></div></footer>
 <script>
 (function(){const toggle=document.getElementById('menu-button'),nav=document.getElementById('nav');toggle.addEventListener('click',function(){const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Cerrar menú':'Abrir menú');});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Abrir menú');}));})();
 </script>
